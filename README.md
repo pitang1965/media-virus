@@ -1,3 +1,6 @@
+# 概要
+以下を改良して作成しました。
+
 # Airtable listing theme for Gatsby
 
 ### Gatsby starter theme integrated with [Airtable](https://airtable.com/)
