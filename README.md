@@ -1,6 +1,6 @@
 # 概要
 ![2020-09-27-media-virus-hero](https://user-images.githubusercontent.com/47315420/94365271-61f9e580-010a-11eb-9d03-07ea16462e75.gif)
-以下を改良して作成しました。
+[gatsby-airtable-listing](https://www.gatsbyjs.com/starters/wkocjan/gatsby-airtable-listing/)を改良して作成しました。
 
 # Airtable listing theme for Gatsby
 
