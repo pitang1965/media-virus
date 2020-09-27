@@ -1,4 +1,5 @@
 # 概要
+![2020-09-27-media-virus-hero](https://user-images.githubusercontent.com/47315420/94365271-61f9e580-010a-11eb-9d03-07ea16462e75.gif)
 以下を改良して作成しました。
 
 # Airtable listing theme for Gatsby
@@ -7,11 +8,11 @@
 
 ## Demo
 
-Live demo is available at: https://gatsby-airtable-listing.netlify.com/
+Live demo is available at: https://media-virus.netlify.app/
 
 ## Screenshot
 
-![The home page](screenshot.png?raw=true)
+n/a
 
 ## Features
 
@@ -20,7 +21,6 @@ Live demo is available at: https://gatsby-airtable-listing.netlify.com/
 - Responsive/adaptive images via [gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/)
 - Uses utility-first [TailwindCSS](https://tailwindcss.com/) framework
 - Responsive design (desktop / mobile)
-- Generic newsletter form
 
 ## 🚀 Getting started
 
