@@ -3,13 +3,12 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     links: {
-      contact: "mailto:contact@me.com",
-      facebook: "https://www.facebook.com",
-      linkedin: "https://www.linkedin.com",
-      twitter: "https://www.twitter.com",
+      contact: "mailto:mediavirus@pitang1965.com",
+      twitter: "https://twitter.com/pitang1965",
+      instagram: "https://www.instagram.com/pitang1965",
     },
-    locale: "en",
-    title: "Travel destinations",
+    locale: "ja",
+    title: "メディアウイルス",
   },
   plugins: [
     {
@@ -62,8 +61,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Travel Destinations`,
-        short_name: `Travel Destinations`,
+        name: `メディアウイルス`,
+        short_name: `メディアウイルス`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#4299e1`,

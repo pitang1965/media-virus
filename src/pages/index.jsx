@@ -7,16 +7,16 @@ export default ({ data }) => {
   return (
     <Layout>
       <SiteMetadata
-        title="Travel destinations"
-        description="Check the most popular travel destinations in Europe."
+        title="メディアウイルス"
+        description="日本のメディアが適正な報道（新型コロナ等）をしているかの調査結果です。"
         image={data.hero.url}
       />
 
       <Hero
         image={data.hero}
-        tag="#travel"
-        title="Travel destinations"
-        description="Check the most popular travel locations in Europe."
+        tag="#improveAccountability"
+        title="メディアウイルス"
+        description="日本のメディアが適正な報道（新型コロナ等）をしているかの調査結果です"
       />
 
       <Cards nodes={data.items.nodes} />
@@ -32,7 +32,7 @@ export const query = graphql`
     items: allAirtable(filter: { table: { eq: $tableName } }) {
       nodes {
         data {
-          country
+          prefecture
           image {
             ...CardImageFragment
           }

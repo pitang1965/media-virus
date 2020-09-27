@@ -46,7 +46,7 @@ Included columns:
 - `summary` (single line text)
 - `image` (attachment)
 - `descrition` (long text)
-- `country` (single select)
+- `prefecture` (single select)
 - `tags` (multiple select)
 - `url` (single line text)
 
