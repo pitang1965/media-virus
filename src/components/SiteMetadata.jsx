@@ -29,14 +29,15 @@ export const SiteMetadata = ({ description, image, title }) => {
       <html lang={locale} />
       <meta name="viewport" content="width=device-width,initial-scale=1" />
       <meta name="description" content={description} />
+      <meta property="og:title" content={siteTitle} />
       <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://media-virus.netlify.app/" />
       <meta property="og:locale" content={locale} />
-      <meta property="og:site_name" content={siteTitle} />
-      <meta property="og:image" content={image} />
+      <meta property="og:image" content={`https://media-virus.netlify.app${image}`} />
       <meta property="og:description" content={description} />
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:image" content={image} />
-      <meta property="twitter:description" content={description} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content="@pitang1965" />
+      <meta property="fb:app_id" content="345487946694410" />
     </Helmet>
   )
 }
