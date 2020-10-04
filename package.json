@@ -1,6 +1,6 @@
 {
   "name": "gatsby-airtable-listing",
-  "description": "Gatsby starter theme integrated with Airtable",
+  "np": "Gatsby starter theme integrated with Airtable",
   "version": "1.0.1",
   "author": "Wojciech Kocjan <wojciech@kocjan.net>",
   "license": "MIT",
@@ -26,7 +26,7 @@
     "gatsby-source-airtable": "^2.1.1",
     "gatsby-source-filesystem": "^2.3.30",
     "gatsby-transformer-sharp": "^2.5.15",
-    "netlify-cli": "^2.64.1",
+    "netlify-cli": "^2.65.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
