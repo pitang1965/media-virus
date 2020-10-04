@@ -15,6 +15,7 @@ export const Card = props => {
     navigation,
     slug,
     summary,
+    updated,
   } = props
 
   return (
@@ -28,6 +29,7 @@ export const Card = props => {
             {name}
           </h1>
           <p className="text-base text-blue-900 mb-5 font-medium">{summary}</p>
+          <Feature label="調査年月日" value={updated} />
           <Feature label="都道府県" value={prefecture} />
         </div>
       </Link>
@@ -47,6 +49,7 @@ Card.propTypes = {
   }),
   slug: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
+  updated: PropTypes.string.isRequired,
 }
 
 Card.defaultProps = {

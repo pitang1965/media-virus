@@ -46,10 +46,11 @@ Included columns:
 - `slug` (single line text, should be unique)
 - `summary` (single line text)
 - `image` (attachment)
-- `descrition` (long text)
+- `description` (long text)
 - `prefecture` (single select)
 - `tags` (multiple select)
 - `url` (single line text)
+- `updated` (Date)
 
 ### Set up Airtable API keys
 

@@ -16,6 +16,7 @@ export default props => {
     name,
     summary,
     tags,
+    updated,
     url,
   } = data.item.data
   const navigation = location.state ? location.state.navigation : null
@@ -39,6 +40,7 @@ export default props => {
             <div className="w-full lg:w-2/5 lg:pl-4">
               <Feature label="都道府県" value={prefecture} />
               <Feature label="タグ" value={tags} />
+              <Feature label="調査年月日" value={updated} />
               <Feature label="Webサイト" value={url} />
               <p className="mt-4 whitespace-pre-line text-sm lg:text-base leading-normal text-blue-900">
                 {description}
@@ -71,6 +73,7 @@ export const query = graphql`
         slug
         summary
         tags
+        updated
         url
       }
     }
