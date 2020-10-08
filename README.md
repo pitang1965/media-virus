@@ -49,7 +49,8 @@ Included columns:
 - `description` (long text)
 - `prefecture` (single select)
 - `tags` (multiple select)
-- `url` (single line text)
+- `url` (single line text) // Web site
+- `pageeurl` (single line text) // Article
 - `updated` (Date)
 
 ### Set up Airtable API keys

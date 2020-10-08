@@ -18,6 +18,7 @@ export default props => {
     tags,
     updated,
     url,
+    pageurl,
   } = data.item.data
   const navigation = location.state ? location.state.navigation : null
   const { modal } = useModal()
@@ -42,6 +43,7 @@ export default props => {
               <Feature label="タグ" value={tags} />
               <Feature label="調査年月日" value={updated} />
               <Feature label="Webサイト" value={url} />
+              <Feature label="記事" value={pageurl} />
               <p className="mt-4 whitespace-pre-line text-sm lg:text-base leading-normal text-blue-900">
                 {description}
               </p>
@@ -75,6 +77,7 @@ export const query = graphql`
         tags
         updated
         url
+        pageurl
       }
     }
   }
