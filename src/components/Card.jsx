@@ -49,7 +49,7 @@ Card.propTypes = {
   }),
   slug: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
-  updated: PropTypes.string.isRequired,
+  updated: PropTypes.string,
 }
 
 Card.defaultProps = {

@@ -43,7 +43,7 @@ export const Hero = props => {
 }
 
 Hero.propTypes = {
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
   image: PropTypes.shape({
     url: PropTypes.string.isRequired,
     childImageSharp: PropTypes.shape({
